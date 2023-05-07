@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/custom_resized_22a81ab8-fb1c-46c1-86f0-ea4a2fb01fcb.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/custom_resized_22a81ab8-fb1c-46c1-86f0-ea4a2fb01fcb.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Tex-Rabitə</title>
+    
+  </head>
+  <body>
+      <header class="header" id="myHeader">
+        <nav class="header_nav">
+          <ul class="ul_hrader2">
+            <li>
+              <a class="header_nav_menu" aria-current="page" href="#parallax_1">Təlimat</a>
+            </li>
+            <li>
+              <a class="header_nav_menu" aria-current="page" href="#parallax_1">Montaj</a>
+            </li>
+          </ul>
+          <div class="Loqo_header">
+            <a href="./parallax.html"><img class="loqo_img" src="./img/custom_resized.jpg" alt="Tex-Rabita"></a>            
+          </div>
+          <ul class="ul_hrader2">
+            <li>
+              <a class="header_nav_menu" href="#parallax_3">Galereya</a>
+            </li>
+            <li>
+              <a class="header_nav_menu" href="#footer">Əlaqə</a>
+            </li>
+          </ul>
+        </nav>
+        <script>
+          window.onscroll = function() {myFunction()};
+          
+          var header = document.getElementById("myHeader");
+          var sticky = header.offsetTop;
+          
+          function myFunction() {
+            if (window.pageYOffset > sticky) {
+              header.classList.add("sticky");
+            } else {
+              header.classList.remove("sticky");
+            }
+          }
+          </script>
+      </header>
+      <main>
+        <section class="no-parallax">
+          <div class="section_div">
+            <h1>Tex-Rabitə dünyasına xoş gəlmisiniz</h1>
+            <h3>Scroll </h3>
+            <i class="down"></i>
+          </div>
+        </section>
+        <section class="parallax bg">
+          <h1 style="letter-spacing: 5px;">Provayderlər</h1>
+          <p>Provayder nədir?<br>Provayder sizə İnternet və telekommunikasiya dünyasına bələdçinizdir.<br>
+          Burada siz ölkəmizdə fəaliyyət göstərən provayderlərlə tanış ola bilərsiniz</p>
+          <a href="./provayder.html"><button class="btn_1"> Ətraflı</button></a>
+        </section>
+        <section class="no-parallax2" id="parallax_1">
+          <h1 style="letter-spacing: 5px;">Təlimatlar</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio error aperiam hic voluptas, velit unde explicabo qui harum totam expedita quos omnis atque repellendus nihil magnam eveniet ullam quia porro!</p>
+          <a href="./telimatlar.html"><button class="btn_1" >Ətraflı</button></a>
+        </section>
+        <section class="parallax bg">
+          <h1>Rabitə tarixi</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus harum, voluptas vitae officiis error at ad quibusdam asperiores veritatis ut, ipsa, iure animi tempora dolor. Quod consequatur quam a neque sit distinctio ipsam dicta! Dolor rem quia, odit magnam repudiandae nulla illum officiis non architecto explicabo magni minima! Architecto, magni!</p>
+        </section>
+        <section class="no-parallax3" id="parallax_3">
+          <h1 style="letter-spacing: 5px;">Gallery</h1>
+          <a href="./gallery2.html"><button class="btn_1" >Ətraflı</button></a>
+        </section>
+        
+      
+       <!-- Site footer -->
+       <!-- <footer id="footer" class="site-footer">
+         <div class="container">
+           <div class="row">
+             <div class="footer_div">
+               <h6>Haqqımızda</h6>
+               <p class="text-justify">Tex-Rabita - saytına xoş gəlmisiniz. <br> Bizim saytda siz rabita dünyasına ayıd xəbərlər,<br> təlimatlar və rabita tarixi ilə tanış ola bilərsiniz. </p>
+             </div>
+             
+             <div class="footer_div">
+               <h6>Bizimlə əlaqə</h6>
+               <ul class="footer-links">
+                 <li><i class="material-icons">phone_in_talk</i> Tel.: +994 344 00 00</li>
+                 <li><i class="material-icons">email</i> E-poçt: info@Tex-Rabita.az</li>
+                 <li><i class="material-icons">map</i> Ünvan: Lermantov, 115</li>
+               </ul>
+             </div>
+             
+             <div>
+               <h6 class="footer_div">Əlavələr</h6>
+               <ul class="footer-links">
+                 <li>Təlimatlar</li>
+                 <li>Provayderlər</li>
+                 <li>Gallereya</li>
+                 <li>Montaj</li>
+               </ul>
+             </div>
+           </div>
+           <hr>
+         </div>
+         <div class="container">
+           <div class="row">
+             <div class="col-md-8 col-sm-6 col-xs-12">
+               <p  style="font-weight: bold;" class="copyright-text">Created by: Amira Cellul
+                 <p >© 2023 Bütün hüquqlar qorunur.</p>
+               </p>
+             </div>
+             
+             <div class="col-md-4 col-sm-6 col-xs-12">
+               <ul class="social-icons">
+                 <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                 <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                 <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                 <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+               </ul>
+             </div>
+           </div>
+         </div>
+       </footer> -->
+       <footer>
+         <div class="footer_info">
+           <div>
+             <h3 class="footer_h3">Bizimlə əlaqə</h3>
+             <ul class="footer-links">
+               <li><i class="material-icons">email</i> E-poçt: info@Tex-Rabita.az</li>
+               <li><i class="material-icons">map</i> Ünvan: Lermantov, 115</li>
+               <li><i class="material-icons">phone_in_talk</i> Tel.: +994 344 00 00</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer_h3">Əlavələr</h3>
+              <ul class="footer-links">
+                <li>Provayderlər</li>
+                <li>Təlimatlar</li>
+                <li>Gallereya</li>
+                <li>Montaj</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer_h3" id="footer">Haqqımızda</h3>  
+              <p style="text-align: center; margin-left: 15px;">
+                Tex-Rabita - saytına xoş gəlmisiniz.<br>
+                Bizim saytda siz rabita dünyasına ayıd xəbərlər,<br> 
+                təlimatlar və rabita tarixi ilə tanış ola bilərsiniz.
+              </p>
+            </div>
+            <div>
+              <p style="font-size: 10px;">
+                All rights reserved<br>
+              </p>
+            </div>
+         </div>
+         <div class="footer_loqo">
+          <img src="./img/custom_resized.jpg" alt="">
+         </div>
+       </footer>
+    </main>
+  </body>
+</html>

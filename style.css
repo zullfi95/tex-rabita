@@ -1,0 +1,536 @@
+body{
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image:url(https://img.freepik.com/free-vector/worldwide-connection-gray-background-illustration-vector_53876-61773.jpg?w=996&t=st=1679245015~exp=1679245615~hmac=8238987a13cd7a5c37e5054c2ba94698a71000a23fa3a95c7f8d840b405d780c);
+}
+
+
+
+.glass{
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+
+/* Header */
+header{
+  /* background-color: rgb(33, 37, 41); */
+  background-color: rgb(46, 72, 99);
+  z-index: 7;
+}
+.header_nav{
+  display: flex;
+  justify-content: center;
+}
+.loqo_img{
+  width: 50px;
+  border-radius: 60%;
+  height: 50px;
+}
+
+.header_nav_menu{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  transition: 0.5;
+}
+.header_nav_menu:hover{
+  color: #d2d2fd;
+}
+.ul_header{
+  display: contents;
+}
+.ul_hrader2{
+  display: flex;
+  flex-direction: row;
+  width: 320px;
+  justify-content: space-around ;
+  margin-top: 10px;
+  list-style-type: none; 
+}
+.loqo_link{
+  text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.Loqo_header{
+  display: flex;
+}
+.search_form{
+  margin-top: 14px;
+  margin-right: 15px;
+}
+.input_search{
+  height: 33px;
+}
+.search_button{
+
+  background-color: #212529;
+  color: green;
+  border: solid 0.5px;
+  border-radius: 10%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* header end */
+
+footer{
+  background-color: rgb(45, 71, 98);
+  color: whitesmoke;
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 26px;
+
+}
+.footer_info{
+  width: 40%;
+  margin-left: 25px;
+  
+}
+.footer_loqo img{
+  width: 50%;
+  border-radius: 50%;
+  margin-left: 30%;
+}
+.footer-links{
+  text-align:center;
+  list-style-type: none; 
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.footer_h3{
+  font-size: 35px;
+}
+
+/* footer */
+/* .site-footer
+{
+  padding: 40px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: whitesmoke;
+
+  background-color: rgb(46, 72, 99);
+}
+
+
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px;
+  font-weight: 600;
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+} */
+
+
+/* Tarix */
+
+.info_blok1{
+  font-size: 25px;
+  margin-top: 5%;
+  display: flex;
+}
+
+/* tarix end */
+
+
+
+/* ////Gallery block//// */
+
+table.iksweb{text-decoration: none;border-collapse:collapse;width:70%;text-align:center;}
+table.iksweb th{font-weight:bold;font-size:14px; color:#ffffff;background-color:#354251;}
+table.iksweb td{font-size:13px;color:#354251;}
+table.iksweb td,table.iksweb th{white-space:pre-wrap;padding:10px 5px;line-height:13px;vertical-align: middle;border: 1px solid #354251;}
+table.iksweb tr:hover{background-color:#f9fafb}
+table.iksweb tr:hover td{color:#354251;cursor:default;}
+
+/* ////Gallery block///           */
+
+
+
+h1,h2,h3{
+    margin-top: 3%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.iksweb{
+  margin-bottom: 1%;
+}
+
+h6{
+    margin-left: 2%;
+    font-size: large;
+}
+
+.kabel1 {
+    width: 400px;
+    margin-left: 30%;
+}
+kabel1#kabel1 {
+    width: 500px;
+}
+
+.boru1{
+    width: 400px;
+    margin-left: 30%;
+}
+
+
+.telimat3{
+    border-style: solid;
+    margin-top: 50px;
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    background-color:rgba(255, 255, 255, 0.5);
+    font-family: 'Roboto Condensed', sans-serif;  
+}
+
+.telimat_h1{
+  letter-spacing: 5px;
+  margin-top: 10px;
+}
+
+
+.ul_style{
+  list-style: lower-latin;
+}
+.ul_style.ul{
+  font-weight: bold;
+}
+
+.main{
+  margin-bottom: 40px;
+}
+
+/* Umumi telimatlar */
+
+.telimat_all{
+  /* margin-top: 80px; */
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  font-family: 'Roboto Condensed', sans-serif;  
+}
+
+.telimat_blok{
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.telimat_all:hover{
+  
+  transition: 0.3s;
+}
+
+.buton{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 270px;
+  height: 120px;
+  text-align: center;
+  border-radius: 12px ;
+  border-style: solid;
+  background-color: #0a0a21;
+  color: white;
+  font-size: 19px;
+}
+
+.buton:hover{
+  background-color: white;
+  transition: 0.8s;
+  color: #0a0a21;
+}
+
+/* ///////////////////////////// */
+
+.FoKabel{
+    width: 500px;
+}
+p.lead{
+    font-weight: 400;
+}
+
+table{
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 2%;
+}
+table tr{
+    border: 1px solid black;
+}
+table th{
+    border: 1px solid black;
+}
+table td{
+    border: 1px solid black;
+}
+
+
+
+
+/*         Parallax            */
+
+main{
+  height: 100vh;
+  perspective: 2px;
+}
+
+section{
+  transform-style: preserve-3d;
+  position: relative;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.no-parallax{
+  background:url(./img/1042328764-preview\ \(online-video-cutter.com\).gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  color: #f9f9f9;
+}
+
+.no-parallax2{
+ background:url(./img/Benefits-of-Using-Optical-Fiber-Cables-Learn-How-It-Can-Improve-Your-Network.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index: 1;
+ color: #f9f9f9;
+}
+
+.no-parallax3{
+ background:url(./img/ezgif.com-webp-to-jpg.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index: 1;
+ color: #f9f9f9;
+}
+
+.parallax.bg{
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+ /* background: url(./img/custom_resized_22a81ab8-fb1c-46c1-86f0-ea4a2fb01fcb.jpg); */
+ background-size: contain;
+ background-repeat: no-repeat;
+ /* width: 800px; */
+ /* display: inline-block; */
+ /* margin-left: 20%; */
+}
+
+.parallax.bg.h1{
+ letter-spacing: 5px;
+}
+
+.parallax{
+ height: 50vh;
+}
+
+.parallax::after{
+  content:"";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+}
+
+.bg::after{
+  background: url("./img/kosmos-mlechnyy-put-zvezdy.jpg");
+  background-size: cover;
+}
+
+.btn_1{
+background-color: #d2d2fd;
+border: solid grey;
+width: 180px;
+height: 40px;
+border-radius: 10px;
+font-weight: 600;
+transition: 0.5s;
+}
+
+.btn_1:hover{
+ border: solid blue;
+}
+
+
+.section_div{
+  letter-spacing: 5px;
+  color:whitesmoke;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  border: solid rgb(238, 230, 230);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 50%;
+}

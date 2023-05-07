@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/custom_resized_22a81ab8-fb1c-46c1-86f0-ea4a2fb01fcb.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/custom_resized_22a81ab8-fb1c-46c1-86f0-ea4a2fb01fcb.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <title>Provayderlər</title>
+
+
+    <style>
+      table {
+        height: 210px;
+        width: 90%;
+        border:1px none #c23882;
+        border-collapse:separate;
+        padding:4px;
+      }
+      table th {
+        border:1px none #c23882;
+        padding:4px;
+        background: #f0f0f0;
+        color: #313030;
+      }
+      table td {
+        border:1px none #c23882;
+        text-align:center;
+        padding:4px;
+        background: #ffffff;
+        color: #313030;
+      }
+    </style>     
+  </head>
+  <body>
+    <header>
+      <nav class="header_nav">
+        <div class="Loqo_header">
+          <a href="./parallax.html"><img class="loqo_img" src="./img/Tex-Rabita.jpg" alt="Tex-Rabita"></a>            
+          <ul class="ul_hrader2">
+            <li>
+              <a class="header_nav_menu" aria-current="page" href="./telimatlar.html">Təlimat</a>
+            </li>
+            <li>
+              <a class="header_nav_menu" href="./gallery2.html">Galereya</a>
+            </li>
+            <li>
+              <a class="header_nav_menu" href="#footer">Əlaqə</a>
+            </li>
+          </ul>
+        </div>
+        <div class="ul_header">
+          <!-- <div>
+            <form class="search_form" role="search">
+              <input class="input_search" type="search" placeholder="Axtarış" aria-label="Search">
+              <button class="search_button" type="submit">Axtarış</button>
+            </form>
+          </div> -->
+        </div>
+      </nav>
+    </header>
+    <div class="provayder">
+                <h1>Provayderlər</h1>
+                <p>Azərbaycan Respublikasının rəsmi provayderi <a target="_blank" href="https://www.delta-telecom.net/az"> Delta </a> Telecom şirkətidir. 
+                    Delta Telecom 2000-ci ildən telekommunikasiya və informasiya 
+                    <br> texnologiyaları bazarında müvəffəqiyyətlə fəaliyyət göstərən 
+                    Qafqaz regionunda yeganə aparıcı operatordur. <br>
+                    Aşağıda ölkə ərazisində fəaliyyət göstərən provayderlərin siyahısı ilə tanış ola bilərsiniz:
+                </p>
+
+                <hr>
+
+               <table id="example" class="display" style="width:100%">
+                  <thead>
+                      <tr>
+                          <th style="text-align: center;">Ad</th>
+                          <th style="text-align: center;">Ünvan</th>
+                          <th style="text-align: center;">Əlaqə nömrəsi</th>
+                          <th style="text-align: center;">Xəritə</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>Baktelecom</td>
+                          <td>Baki şəhəri, Tbilisi prospekti 107</td>
+                          <td>155</td>
+                          <td><a href="https://www.baktelecom.az/">Baktelecom.az</a></td>
+                      </tr>
+                      <tr>
+                        <td>Aztelecom</td>
+                        <td>Baki şəhəri, Tbilisi prospekti 187</td>
+                        <td>170</td>
+                        <td><a href="https://www.aztelekom.az/">Aztelecom.az</a></td>
+                     </tr>
+                     <tr>
+                       <td>AzEuroTel</td>
+                       <td>Baki şəhəri, B.Sərdarov 1</td>
+                       <td>155</td>
+                       <td><a href="https://azeurotel.az/az">AzEuroTel.az</a></td>
+                     </tr>
+                     <tr>
+                       <td>Azeronline</td>
+                       <td>Bakı, Yasamal rayonu, Tbilisi prospekti, 61 A</td>
+                       <td>(+99412) 490-49-94</td>
+                       <td><a href="https://www.azeronline.com/">Azeronline.az</a></td>
+                     </tr>
+                     <tr>
+                       <td>Aktiv Ol</td>
+                       <td>Bakı, Nizami rayonu, Heydər Əliyev prospekti, 106 A</td>
+                       <td>(+99412) 444-04-44</td>
+                       <td><a href="http://aktivol.az/">Aktivol.az</a></td>
+                     </tr>
+                     <tr>
+                       <td>Alfanet</td>
+                       <td>Bakı, Xətai rayonu, Nəcəfqulu Rəfiyev küçəsi, 49</td>
+                       <td>174</td>
+                       <td><a href="http://alfanet.az/az/index.php">Alfanet.az</a></td>
+                     </tr>
+                     <tr>
+                       <td>Avirtel</td>
+                       <td>Bakı, Nəsimi rayonu, Xətai prospekti, 38</td>
+                       <td>(+99412) 434-80-88</td>
+                       <td><a href="https://www.avirtel.az/">Avirtel.az</a></td>
+                     </tr>
+                     <tr>
+                       <td>Azedunet</td>
+                       <td>Bakı, Yasamal rayonu, Tbilisi prospekti, 61 A</td>
+                       <td>(+99412) 565-03-25</td>
+                       <td><a href="https://azedunet.az/az/">Azedunet.az</a></td>
+                     </tr>
+                     <tr>
+                       <td>Delta Telecom</td>
+                       <td>Bakı, Yasamal rayonu, Şərifzadə küçəsi, 241</td>
+                       <td>(+99412) 431-14-20</td>
+                       <td><a href="https://www.delta-telecom.net/az"></a></td>
+                     </tr>
+                     <tr>
+                       <td>CityNet</td>
+                       <td>Bakı, Yasamal rayonu, Şərifzadə küçəsi, 69</td>
+                       <td>(+99412) 537-77-77</td>
+                       <td><a href="https://www.citynet.az/">Citynet.az</a></td>
+                     </tr>
+                     <tr>
+                       <td>Connect</td>
+                       <td>Bakı, Yasamal rayonu, Zivərbəy Əhmədbəyov küçəsi, 2</td>
+                       <td>(+99412) 159</td>
+                       <td><a href="https://connect.az/az">Connect.az</a></td>
+                     </tr>
+                     <tr>
+                       <td>Eurosel</td>
+                       <td>Bakı, Nərimanov rayonu, Kaveroçkin küçəsi, 27</td>
+                       <td>(+99412) 510-01-17</td>
+                       <td><a href="https://www.eurosel.az/">eurosel.az</a></td>
+                     </tr>
+                     <tr>
+                       <td>Kaspian Telekom</td>
+                       <td>Bakı, Səbail rayonu, Dilarə Əliyeva küçəsi, 251 A</td>
+                       <td>(+99412) 490-23-43</td>
+                       <td><a href="https://aile.tv/az">aile.tv/az</a></td>
+                    </tr>
+                    <tr>
+                     <td>Meqa-Telekom</td>
+                     <td>Bakı, Nəsimi rayonu, Süleyman Rüstəm küçəsi, 18</td>
+                     <td>(+99412) 541-77-77</td>
+                     <td><a href="http://www.megatelecom.az/"></a></td>
+                    </tr>
+                    <tr>
+                      <td>Mobicom</td>
+                      <td>Bakı, Səbail rayonu, Rövşən Əliyev küçəsi, 5 AZ1000</td>
+                      <td>(+99455) 909-09-99</td>
+                      <td><a href="https://www.mobicom.az/">mobicom.az</a></td>
+                    </tr>  
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <th style="text-align: center;">Ad</th>
+                      <th style="text-align: center;">Ünvan</th>
+                      <th style="text-align: center;">Əlaqə nömrəsi</th>
+                      <th style="text-align: center;">Xəritə</th>
+                   </tr>
+                  </tfoot>
+              </table>
+      </div>
+  
+            
+          <script>
+          $(document).ready(function () {
+            $('#example').DataTable();
+        });</script>
+
+             
+
+
+
+
+              
+    <hr>
+
+    <footer id="footer" class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>Haqqımızda</h6>
+              <p class="text-justify">Tex-Rabita - saytına xoş gəlmisiniz. Bizim saytda siz rabita dünyasına ayıd xəbərlər, təlimatlar və rabita tarixi ilə tanış ola bilərsiniz. </p>
+            </div>
+    
+            <div class="col-xs-6 col-md-3">
+              <h6>Bizimlə əlaqə</h6>
+              <ul class="footer-links">
+                <li><i class="material-icons">phone_in_talk</i> Tel.: +994 344 00 00</li>
+                <li><i class="material-icons">email</i> E-poçt: info@Tex-Rabita.az</li>
+                <li><i class="material-icons">map</i> Ünvan: Lermantov, 115</li>
+              </ul>
+            </div>
+    
+            <div class="col-xs-6 col-md-3">
+              <h6>Əlavələr</h6>
+              <ul class="footer-links">
+                <li>Təlimatlar</li>
+                <li>Xəbərlər</li>
+                <li>Gallereya</li>
+                <li>Tarix</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p  style="font-weight: bold;" class="copyright-text">Created by: Amira Cellul
+                  <p >© 2023 Bütün hüquqlar qorunur.</p>
+              </p>
+            </div>
+    
+            <!-- <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div> -->
+          </div>
+        </div>
+    </footer>
+  
+
+</body>
+</html>
